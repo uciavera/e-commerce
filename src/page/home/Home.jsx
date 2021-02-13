@@ -56,32 +56,11 @@ export default function Home() {
         },
     ])
 
-    let [category, setCategory] = useState([
-        {
-            name: "xx",
-            icon: "x"
-        },
-        {
-            name: "xy",
-            icon: "y"
-        },
-    ])
+   
     return (
         <div>
-            <Row className="mt-2 p-2">
-                <h6>KATEGORI</h6>
-            </Row>
-            <Row className="m-2 p-2">
-
-
-                {category ? category.map(item => {
-                    return (
-                        <button alt={item.name}>
-                            {item.icon}
-                        </button>
-                    )
-                }) : null}
-            </Row>
+           
+            
             <Row>
                 {barang ? barang.map(item => {
                     return (

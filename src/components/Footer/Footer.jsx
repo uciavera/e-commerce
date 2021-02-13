@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button, InputGroup, FormControl } from 'react-bootstrap';
-
+import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <div>
